@@ -6,7 +6,7 @@ function display()
     var sec= dateTime.getSeconds();
     var session=document.getElementById("session");
     
-    if(hrs=>12)
+    if(hrs>12)
     {
         session="PM";
         hrs-=12;
